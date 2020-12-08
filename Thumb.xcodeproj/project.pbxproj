@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B049EA24257EB595009CF8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA23257EB595009CF8BE /* AppDelegate.swift */; };
 		B049EA26257EB595009CF8BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA25257EB595009CF8BE /* SceneDelegate.swift */; };
-		B049EA28257EB595009CF8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA27257EB595009CF8BE /* ViewController.swift */; };
 		B049EA2B257EB595009CF8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B049EA29257EB595009CF8BE /* Main.storyboard */; };
 		B049EA2E257EB595009CF8BE /* Thumb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B049EA2C257EB595009CF8BE /* Thumb.xcdatamodeld */; };
 		B049EA30257EB5A1009CF8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B049EA2F257EB5A1009CF8BE /* Assets.xcassets */; };

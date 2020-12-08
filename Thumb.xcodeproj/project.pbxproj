@@ -14,18 +14,33 @@
 		B049EA2E257EB595009CF8BE /* Thumb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B049EA2C257EB595009CF8BE /* Thumb.xcdatamodeld */; };
 		B049EA30257EB5A1009CF8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B049EA2F257EB5A1009CF8BE /* Assets.xcassets */; };
 		B049EA33257EB5A1009CF8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B049EA31257EB5A1009CF8BE /* LaunchScreen.storyboard */; };
+		B049EA3E257EB5C1009CF8BE /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA3D257EB5C1009CF8BE /* Objects.swift */; };
+		B049EA44257EBFA8009CF8BE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA43257EBFA8009CF8BE /* HomeVC.swift */; };
+		B049EA47257EBFBA009CF8BE /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA46257EBFBA009CF8BE /* CartVC.swift */; };
+		B049EA4B257EC3F0009CF8BE /* ProductDetailTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA4A257EC3F0009CF8BE /* ProductDetailTBC.swift */; };
+		B049EA50257ED66A009CF8BE /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA4F257ED66A009CF8BE /* HomeCell.swift */; };
+		B049EA56257ED6AB009CF8BE /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA55257ED6AB009CF8BE /* CartCell.swift */; };
+		B049EA5D257F041E009CF8BE /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA5C257F041E009CF8BE /* CoreDataModel.swift */; };
+		B049EA60257F1790009CF8BE /* ExtraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049EA5F257F1790009CF8BE /* ExtraModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B049EA20257EB595009CF8BE /* Thumb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thumb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B049EA23257EB595009CF8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B049EA25257EB595009CF8BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B049EA27257EB595009CF8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B049EA2A257EB595009CF8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B049EA2D257EB595009CF8BE /* Thumb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thumb.xcdatamodel; sourceTree = "<group>"; };
 		B049EA2F257EB5A1009CF8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B049EA32257EB5A1009CF8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B049EA34257EB5A1009CF8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B049EA3D257EB5C1009CF8BE /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		B049EA43257EBFA8009CF8BE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B049EA46257EBFBA009CF8BE /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		B049EA4A257EC3F0009CF8BE /* ProductDetailTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailTBC.swift; sourceTree = "<group>"; };
+		B049EA4F257ED66A009CF8BE /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		B049EA55257ED6AB009CF8BE /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		B049EA5C257F041E009CF8BE /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		B049EA5F257F1790009CF8BE /* ExtraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +75,61 @@
 			children = (
 				B049EA23257EB595009CF8BE /* AppDelegate.swift */,
 				B049EA25257EB595009CF8BE /* SceneDelegate.swift */,
-				B049EA27257EB595009CF8BE /* ViewController.swift */,
-				B049EA29257EB595009CF8BE /* Main.storyboard */,
+				B049EA5F257F1790009CF8BE /* ExtraModel.swift */,
+				B049EA3B257EB5AB009CF8BE /* Objects */,
+				B049EA5A257EF8E3009CF8BE /* CoreData */,
+				B049EA4E257ED648009CF8BE /* Home */,
+				B049EA53257ED672009CF8BE /* Cart */,
+				B049EA54257ED67E009CF8BE /* ProductDetail */,
 				B049EA2F257EB5A1009CF8BE /* Assets.xcassets */,
+				B049EA29257EB595009CF8BE /* Main.storyboard */,
 				B049EA31257EB5A1009CF8BE /* LaunchScreen.storyboard */,
 				B049EA34257EB5A1009CF8BE /* Info.plist */,
-				B049EA2C257EB595009CF8BE /* Thumb.xcdatamodeld */,
 			);
 			path = Thumb;
+			sourceTree = "<group>";
+		};
+		B049EA3B257EB5AB009CF8BE /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B049EA3D257EB5C1009CF8BE /* Objects.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		B049EA4E257ED648009CF8BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B049EA43257EBFA8009CF8BE /* HomeVC.swift */,
+				B049EA4F257ED66A009CF8BE /* HomeCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B049EA53257ED672009CF8BE /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B049EA46257EBFBA009CF8BE /* CartVC.swift */,
+				B049EA55257ED6AB009CF8BE /* CartCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B049EA54257ED67E009CF8BE /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B049EA4A257EC3F0009CF8BE /* ProductDetailTBC.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		B049EA5A257EF8E3009CF8BE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B049EA5C257F041E009CF8BE /* CoreDataModel.swift */,
+				B049EA2C257EB595009CF8BE /* Thumb.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B049EA28257EB595009CF8BE /* ViewController.swift in Sources */,
+				B049EA3E257EB5C1009CF8BE /* Objects.swift in Sources */,
+				B049EA60257F1790009CF8BE /* ExtraModel.swift in Sources */,
+				B049EA44257EBFA8009CF8BE /* HomeVC.swift in Sources */,
+				B049EA50257ED66A009CF8BE /* HomeCell.swift in Sources */,
+				B049EA47257EBFBA009CF8BE /* CartVC.swift in Sources */,
 				B049EA24257EB595009CF8BE /* AppDelegate.swift in Sources */,
 				B049EA2E257EB595009CF8BE /* Thumb.xcdatamodeld in Sources */,
+				B049EA4B257EC3F0009CF8BE /* ProductDetailTBC.swift in Sources */,
+				B049EA56257ED6AB009CF8BE /* CartCell.swift in Sources */,
+				B049EA5D257F041E009CF8BE /* CoreDataModel.swift in Sources */,
 				B049EA26257EB595009CF8BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QSJDPXZH9P;
 				INFOPLIST_FILE = Thumb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QSJDPXZH9P;
 				INFOPLIST_FILE = Thumb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
